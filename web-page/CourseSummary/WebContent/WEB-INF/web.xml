@@ -12,4 +12,14 @@
   <listener>
     <listener-class>com.udev.course.config.AppContextListener</listener-class>
   </listener>
+  <servlet>
+    <description></description>
+    <display-name>DummyService</display-name>
+    <servlet-name>DummyService</servlet-name>
+    <servlet-class>com.udev.course.dummy.DummyService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DummyService</servlet-name>
+    <url-pattern>/DummyService</url-pattern>
+  </servlet-mapping>
 </web-app>

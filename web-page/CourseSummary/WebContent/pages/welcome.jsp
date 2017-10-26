@@ -1,7 +1,7 @@
 <%@page import="com.udev.course.model.TeacherVO"%>
-<%@page import="java.util.ArrayList"%>
-<%@page import="com.udev.course.model.CourseVO"%>
 <%@page import="java.util.List"%>
+<%@page import="com.udev.course.model.CourseVO"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -11,13 +11,16 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>UDev IT - Cursos en Línea</title>
 		
+		<script src="../js/welcome.js"></script>
+		
 		<!-- Custom styles for this template -->
     	<link href="../css/welcome.css" rel="stylesheet">
     	<link href="../css/prices.css" rel="stylesheet">
+    	<link href="../css/cards.css" rel="stylesheet">
+    	<link href="../css/footer.css" rel="stylesheet">
     
 		<!-- Bootstrap -->
       	<link href = "../boostrap/css/bootstrap.min.css" rel="stylesheet">
-      	
 	</head>
 	<body>
 		<div class="container">
@@ -67,30 +70,28 @@
 					<h1>Cursos recomendados</h1>
 				</div>
 			</div>
-			<%List<CourseVO> courses = new ArrayList<CourseVO>();
-	    	courses.add(new CourseVO(1, "Java Training", "Java-training-Courses.png", new TeacherVO(1, "Olegario Castellanos")));
-	    	courses.add(new CourseVO(2, "Node JS", "nodejs-new-pantone-black.png", new TeacherVO(2, "Francisco Marquez")));
-	    	courses.add(new CourseVO(3, "Angular JS", "3116-dzone_refcard_206.png", new TeacherVO(3, "Pedro Juarez")));
-	    	courses.add(new CourseVO(4, "Java 7", "java-training-multisoft-systems.png", new TeacherVO(3, "Shunco Vazquez"))); %>
-			<div class="row">
-				<%for(int x=0; x < courses.size(); x++){ %>
-				<%CourseVO c = courses.get(x); %>
-				<div class="col-md-4">
-					<div class="card">
-					  	<img class="card-img-top" src="../images/flyer/<%=c.getFlyerName()%>" class="img-fluid">
-					  	<div class="card-body">
-					    	<h4 class="card-title"><%=c.getName() %></h4>
-					    	<p class="card-text">Instructor: <%=c.getTeacher().getName() %></p>
-					    	<a href="#" class="btn btn-primary">Ver Temario</a>
-					  	</div>
-					</div>
+			<div class="row" id="rowRecomendation">
+				<!--Only for fererence about the card
+				<div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+					<div class="card card-inverse card-info">
+	                    <img class="card-img-top" src="../images/flyer/Java-training-Courses.png">
+	                    <div class="card-block">
+	                        <figure class="profile profile-inline">
+	                            <img src="../images/flyer/Java-training-Courses.png" class="profile-avatar" alt="">
+	                        </figure>
+	                        <h4 class="card-title">Java Basico</h4>
+	                        <div class="card-text">
+	                            Profesor: Olegario Castellanos G.
+	                        </div>
+	                    </div>
+	                    <div class="card-footer">
+	                        <small>Modalidad: Online</small>
+	                        <button class="btn btn-info float-right btn-sm">Temario</button>
+	                    </div>
+	                </div>
 				</div>
-				<%if(x !=0 && x % 2 == 0){ %>
-				</div>
-				<div class="row">
-				<%} %>
-				<%} %>
-			</div>
+				-->
+	        </div>
 		</div>
 		
 		<br>
@@ -141,7 +142,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="col-md-4">
 					<div class="pricing pricing-active hover-effect">
 						<div class="pricing-head pricing-head-active">
@@ -218,15 +218,17 @@
 		
 		<br>
 		
-		<div class="container">
-			
-		</div>
-		
    		<!-- Bootstrap core JavaScript
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     	<script src="http://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
     	<script src="../boostrap/js/bootstrap.min.js"></script>
+    	
+    	<script>
+		    $( document ).ready(function() {
+		    	loadCourses();
+		    });
+	    </script>
 	</body>
 </html>
