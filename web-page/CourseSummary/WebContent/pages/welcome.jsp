@@ -20,6 +20,7 @@
     	<link href="../css/footer.css" rel="stylesheet">
     
 		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       	<link href = "../boostrap/css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -218,6 +219,20 @@
 		
 		<br>
 		
+		<div class="container">
+			<hr>
+        	<div class="text-center center-block">
+            	<br/>
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+			</div>
+   			 <hr>
+		</div>
+		
+		<br/>
+
    		<!-- Bootstrap core JavaScript
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
