@@ -63,7 +63,7 @@ function loadTestimonials(){
 								'<i class="fa fa-star"></i>' +
 								'<i class="fa fa-star-o"></i>' +
 								'<div class="card-text">' +
-									'<i class="fa fa-quote-left"></i>' +
+									'<i class="fa fa-quote-left"></i> ' +
 									data.comment +
 								'</div>' +
 							'</div>' +
