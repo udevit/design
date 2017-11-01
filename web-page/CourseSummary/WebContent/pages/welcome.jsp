@@ -9,7 +9,7 @@
 	<head>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>UDev IT - Cursos en Línea</title>
+		<title>UDev IT | Capacitación Empresarial</title>
 		
 		<script src="../js/welcome.js"></script>
 		
@@ -18,12 +18,35 @@
     	<link href="../css/prices.css" rel="stylesheet">
     	<link href="../css/cards.css" rel="stylesheet">
     	<link href="../css/footer.css" rel="stylesheet">
+    	<link href="../css/testimonials.css" rel="stylesheet">
     
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       	<link href = "../boostrap/css/bootstrap.min.css" rel="stylesheet">
 	</head>
+	
 	<body>
+		
+		<nav class="top-bar">
+			<div class="container">
+        		<div class="row">
+        			<div class="col-sm-6">
+            			<span class="nav-text">
+                			<i class="fa fa-phone" aria-hidden="true"></i>  +521 5527 119309 
+                			<i class="fa fa-envelope" aria-hidden="true"></i> contacto@udevit.com.mx
+                		</span>
+            		</div>
+					<div class="col-sm-6 text-right">
+                		<ul class="tools">
+                			<li class="dropdown">
+                 				<a class="" href="#"><i class="fa fa-user" aria-hidden="true"></i> Mi Cuenta</a>                  
+                			</li>
+                		</ul>
+              		</div>
+        		</div>
+      		</div>
+		</nav>
+	
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
   				<a class="navbar-brand" href="#">UDev IT</a>
@@ -37,6 +60,12 @@
         					<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       					</li>
       					<li class="nav-item">
+        					<a class="nav-link" href="#">Profesores</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="#">Calendario</a>
+      					</li>
+      					<li class="nav-item">
         					<a class="nav-link" href="#">Cursos</a>
       					</li>
     				</ul>
@@ -48,191 +77,223 @@
 			</nav>
    		</div>
    		
-   		<div class="jumbotron">
-   			<div class="container">
-   				<div class="row">
-   					<div class="col-md-6">
-			        	<h1>Aprende desde cero</h1>
-			        	<p>No necesitas conocimientos previos</p>
-			        	<p>
-			          		<a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-			        	</p>
-		        	</div>
-		        	<div class="col-md-6">
-		        		<img src="../images/training.jpg" class="img-fluid">
-		        	</div>
-		        </div>
-	        </div>
-      	</div>
-		
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Cursos recomendados</h1>
+   		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+			    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    	<li data-target="#myCarousel" data-slide-to="1"></li>
+			  	</ol>
+				 <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img src="http://diamondcreative.net/plus-v1.1/img/slider/slider_06.jpg" 
+							class="img-fluid">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Invierte en tu futuro</h3>
+							<p>Capacítate con nosotros<br>revisa el calendario de cursos</p>
+						    <button class="btn btn-danger">Ver calendario</button>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="http://diamondcreative.net/plus-v1.1/img/slider/slider_03.jpg" 
+							class="img-fluid">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Somos la mejor opción para tí</h3>
+						  	<p>Ofrecemos cursos presenciales y online, <br>con clases pre-grabadas y asesorías en vivo.</p>
+						  	<button class="btn btn-danger">Pide tu prueba gratis</button>
+						</div>
+					</div>
+					
 				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<div class="row" id="rowRecomendation">
-				<!--Only for fererence about the card
-				<div class="col-sm-12 col-md-6 col-lg-4 mt-4">
-					<div class="card card-inverse card-info">
-	                    <img class="card-img-top" src="../images/flyer/Java-training-Courses.png">
-	                    <div class="card-block">
-	                        <figure class="profile profile-inline">
-	                            <img src="../images/flyer/Java-training-Courses.png" class="profile-avatar" alt="">
-	                        </figure>
-	                        <h4 class="card-title">Java Basico</h4>
-	                        <div class="card-text">
-	                            Profesor: Olegario Castellanos G.
-	                        </div>
-	                    </div>
-	                    <div class="card-footer">
-	                        <small>Modalidad: Online</small>
-	                        <button class="btn btn-info float-right btn-sm">Temario</button>
-	                    </div>
-	                </div>
-				</div>
-				-->
-	        </div>
-		</div>
-		
+  		</div>
+  		
+		<br>
 		<br>
 		<br>
 		
-		<div class="container">
-			<div class="row">
-				<!-- Pricing -->
-				<div class="col-md-12">
-					<h1>Conoce nuestros planes de suscripción</h1>
-			       	<p>Tú eliges: individual, equipo o empresarial</p>
-				</div>
+		<!--Section: Recomendaciones -->
+		<section class="section text-center pb-4">
+			<!--Section heading-->
+			<h1 class="section-heading h1 pt-4">Cursos recomendados</h1>
+			<div class="container">
+				<div class="row" id="rowRecomendation">
+        			
+        		</div>
 			</div>
-			<div class="row">
-				<!-- Pricing -->
-				<div class="col-md-4">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Individual<span>
-							1 usuario</span>
-							</h3>
-							<h4><i>$</i>5<i>.49</i>
-							<span>Por Mes </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
-							<a href="javascript:;" class="btn yellow-crusta">Comprar ahora</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="pricing pricing-active hover-effect">
-						<div class="pricing-head pricing-head-active">
-							<h3>Empresarial<span>
-							Más de 11 Usuarios</span>
-							</h3>
-							<h4><i>$</i>13<i>.99</i>
-							<span>Por Mes </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
-							<a href="javascript:;" class="btn yellow-crusta">Comprar ahora</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="pricing hover-effect">
-						<div class="pricing-head">
-							<h3>Equipo<span>
-							2 a 10 Usuarios</span>
-							</h3>
-							<h4><i>$</i>99<i>.00</i>
-							<span>Por Mes </span>
-							</h4>
-						</div>
-						<ul class="pricing-content list-unstyled">
-							<li>
-								At vero eos
-							</li>
-							<li>
-								No Support
-							</li>
-							<li>
-								Fusce condimentum
-							</li>
-							<li>
-								Ut non libero
-							</li>
-							<li>
-								Consecte adiping elit
-							</li>
-						</ul>
-						<div class="pricing-footer">
-							<p>
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna psum olor .
-							</p>
-							<a href="javascript:;" class="btn yellow-crusta">Comprar ahora</a>
-						</div>
-					</div>
-				</div>
-				<!--//End Pricing -->
+		</section>
+		
+		<section class="section text-center pb-4">
+			<div class="container">
+				<div class="row">
+	      			<div class="col-sm-12 col-md-12 col-lg-12 mt-4">
+	      				<button class="btn btn-danger">Ver más cursos</button>
+	      			</div>
+	      		</div>
 			</div>
-		</div>
+		</section>
 		
 		<br>
 		
-		<div class="container">
-			<hr>
-        	<div class="text-center center-block">
-            	<br/>
-                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-			</div>
-   			 <hr>
-		</div>
+		<!--Section: Testimonios -->
+		<section class="section text-center pb-4">
+    		<!--Section heading-->
+    		<h1 class="section-heading h1 pt-4">Testimonios</h1>
+    		<div class="container">
+	    		<div class="row" id="rowTestimonials">
+	    		
+	            </div>
+            </div>
+    	</section>
 		
-		<br/>
-
+		<br>
+		
+		<section class="section text-center pb-4">
+			<!--Section heading-->
+			<h1 class="section-heading h1 pt-4">Conoce nuestros planes de suscripción</h1>
+			<p>Tú eliges: individual, equipo o empresarial</p>
+			<div class="container">
+				<div class="row">
+					<!-- Pricing -->
+					<div class="col-md-4">
+						<div class="pricing hover-effect">
+							<div class="pricing-head">
+								<h3>Trimestral<span></span>
+								</h3>
+								<h4><i>$</i>600<i>.00</i>
+								<span>Cada tres meses</span>
+								</h4>
+							</div>
+							<ul class="pricing-content list-unstyled">
+								<li>
+									Acceso ilimitado a eventos dentro de la comunidad
+								</li>
+								<li>
+									Asesoría personalizada
+								</li>
+								<li>
+									Acceso a panel de usuario
+								</li>
+								<li>
+									Acceso ilimitado a cursos dentro de la plataforma
+								</li>
+							</ul>
+							<div class="pricing-footer">
+								<p>
+									 Todos nuestros paquetes están diseñados para apoyar a la economía de nuestros clientes, elige el que más se adapte a tus posibilidades.
+								</p>
+								<a href="javascript:;" class="btn yellow-crusta">Suscríbete</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="pricing pricing-active hover-effect">
+							<div class="pricing-head pricing-head-active">
+								<h3>Anual<span>Recomendado</span>
+								</h3>
+								<h4><i>$</i>1,020<i>.00</i>
+								<span>Cada doce meses</span>
+								</h4>
+							</div>
+							<ul class="pricing-content list-unstyled">
+								<li>
+									Acceso ilimitado a eventos dentro de la comunidad
+								</li>
+								<li>
+									Asesoría personalizada
+								</li>
+								<li>
+									Acceso a panel de usuario
+								</li>
+								<li>
+									Acceso ilimitado a cursos dentro de la plataforma
+								</li>
+							</ul>
+							<div class="pricing-footer">
+								<p>
+									 Todos nuestros paquetes están diseñados para apoyar a la economía de nuestros clientes, elige el que más se adapte a tus posibilidades.
+								</p>
+								<a href="javascript:;" class="btn yellow-crusta">Suscríbete</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="pricing hover-effect">
+							<div class="pricing-head">
+								<h3>Semestral<span></span>
+								</h3>
+								<h4><i>$</i>1,920<i>.00</i>
+								<span>Cada seis meses</span>
+								</h4>
+							</div>
+							<ul class="pricing-content list-unstyled">
+								<li>
+									Acceso ilimitado a eventos dentro de la comunidad
+								</li>
+								<li>
+									Asesoría personalizada
+								</li>
+								<li>
+									Acceso a panel de usuario
+								</li>
+								<li>
+									Acceso ilimitado a cursos dentro de la plataforma
+								</li>
+							</ul>
+							<div class="pricing-footer">
+								<p>
+									 Todos nuestros paquetes están diseñados para apoyar a la economía de nuestros clientes, elige el que más se adapte a tus posibilidades.
+								</p>
+								<a href="javascript:;" class="btn yellow-crusta">Suscríbete</a>
+							</div>
+						</div>
+					</div>
+					<!--//End Pricing -->
+				</div>
+			</div>
+		</section>
+		
+		<br>
+		
+		<footer class="footer">
+			<div class="container">
+		        <div class="row">
+			        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+			            <h4 class="title">UDev IT | Capacitación Empresarial</h4>
+			            <p>En UDev IT nos preocupamos por capacitarte, contamos con cursos que actualmente se requieren en la industria de software.</p>
+			            <ul class="footer-icon">
+				            <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				            <a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				            <a href="#" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			        	</ul>
+					</div>
+					<div class="col-lg-6 text-center d-none d-lg-block">
+						<h4 class="title">Métodos de Pago</h4>
+						<p>Ahora puedes realizar tus pagos electrónicamente.</p>
+						<ul class="footer-icon">
+							<a href="#" class="social"><i class="fa fa-credit-card" aria-hidden="true"></i></a>
+				            <a href="#" class="social"><i class="fa fa-paypal" aria-hidden="true"></i></a>
+				            <a href="#" class="social"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row text-center">
+					<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+						© 2017. Todos los derechos reservados.
+					</div>
+				</div>
+			</div>
+		</footer>
+		
    		<!-- Bootstrap core JavaScript
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
@@ -243,6 +304,7 @@
     	<script>
 		    $( document ).ready(function() {
 		    	loadCourses();
+		    	loadTestimonials();
 		    });
 	    </script>
 	</body>

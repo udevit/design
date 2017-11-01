@@ -37,9 +37,17 @@ public class DummyService extends HttpServlet {
 			jsonObject.append(",");
 			jsonObject.append("{\"id\": 2,\"flyer\" : \"../images/flyer/nodejs-new-pantone-black.png\",\"name\" : \"NodeJS Basico\",\"trainer\": \"Shunco Vazquez.\",\"mode\": \"Presencial\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 3,\"flyer\" : \"../images/flyer/java-training-multisoft-systems.png\",\"name\" : \"Java Basico II\",\"trainer\": \"Joe c. Enriquez F..\",\"mode\": \"Online\"}");
+			jsonObject.append("{\"id\": 3,\"flyer\" : \"../images/flyer/java-training-multisoft-systems.png\",\"name\" : \"Java Basico II\",\"trainer\": \"Joe c. Enriquez F.\",\"mode\": \"Online\"}");
 			jsonObject.append(",");
 			jsonObject.append("{\"id\": 1,\"flyer\" : \"../images/flyer/3116-dzone_refcard_206.png\",\"name\" : \"Angular Basico\",\"trainer\": \"Juan Perez Juarez\",\"mode\": \"Presencial\"}");
+			jsonObject.append("]");
+		}else if("testimonials".equals(modeType)){
+			jsonObject.append("[");
+			jsonObject.append("{\"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Karla\", \"course\": \"Desarrollo web\", \"date\": \"17 Marzo 2017\", \"comment\": \"Excelente curso, cuando elegi tomarlo no sabia nada al respecto pero el profesor siempre fue muy atento resolviendo dudas.\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Maria\", \"course\": \"Java desde Cero\", \"date\": \"23 Enero 2017\", \"comment\": \"Supero las espectativas que tenia, ya habia probado en otras escuelas y no habia estado satisfecha.\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Socorro\", \"course\": \"CSS3 desde Cero\", \"date\": \"29 Septiembre 2017\", \"comment\": \"Estoy muy emocionada de aprender cosas relacionadas al diseno web, tengan por seguro que tomare otro curso.\"}");
 			jsonObject.append("]");
 		}
 		out.print(jsonObject.toString());
