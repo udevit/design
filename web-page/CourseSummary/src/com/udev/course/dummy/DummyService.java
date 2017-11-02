@@ -49,6 +49,24 @@ public class DummyService extends HttpServlet {
 			jsonObject.append(",");
 			jsonObject.append("{\"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Socorro\", \"course\": \"CSS3 desde Cero\", \"date\": \"29 Septiembre 2017\", \"comment\": \"Estoy muy emocionada de aprender cosas relacionadas al diseno web, tengan por seguro que tomare otro curso.\"}");
 			jsonObject.append("]");
+		}else if("profesors".equals(modeType)){
+			jsonObject.append("[");
+			jsonObject.append("{\"id\": 1, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Olegario\", \"lastname\": \"Castellanos\", \"role\": \"Ing. Software\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 2, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Joe C.\", \"lastname\": \"Enriquez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 3, \"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Jose E. \", \"lastname\": \"Vazquez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 4, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Marco F.\", \"lastname\": \"Diaz\", \"role\": \"Disenador web\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 5, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Juan\", \"lastname\": \"Diaz\", \"role\": \"Ing. Software\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 6, \"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Pedro\", \"lastname\": \"Perez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 7, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Jose\", \"lastname\": \"Orozco\", \"role\": \"SAP Consultant\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 8, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Guillermo\", \"lastname\": \"Ochoa\", \"role\": \"DBA\"}");
+			jsonObject.append("]");
 		}
 		out.print(jsonObject.toString());
 		out.flush();

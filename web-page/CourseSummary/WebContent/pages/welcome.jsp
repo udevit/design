@@ -9,7 +9,8 @@
 	<head>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>UDev IT | Capacitaci&oacute;n Empresarial</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>UDev IT | Capacitaci&oacute;n Empresarial</title> 
 		
 		<script src="../js/welcome.js"></script>
 		
@@ -27,11 +28,45 @@
 	
 	<body>
 		<div id="divHeader"></div>
-		
-		<br>
-		<br>
-		<br>
-		
+
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+			    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    	<li data-target="#myCarousel" data-slide-to="1"></li>
+			  	</ol>
+				 <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img src="http://diamondcreative.net/plus-v1.1/img/slider/slider_06.jpg" 
+							class="img-fluid">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Invierte en tu futuro</h3>
+							<p>Capac&iacute;tate con nosotros<br>revisa el calendario de cursos</p>
+						    <button class="btn btn-danger">Ver calendario</button>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="http://diamondcreative.net/plus-v1.1/img/slider/slider_03.jpg" 
+							class="img-fluid">
+						<div class="carousel-caption d-none d-md-block">
+							<h3>Somos la mejor opci&oacute;n para t&iacute;</h3>
+						  	<p>Ofrecemos cursos presenciales y online, <br>con clases pre-grabadas y asesor&iacute;as en vivo.</p>
+						  	<button class="btn btn-danger">Pide tu prueba gratis</button>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
 		<!--Section: Recomendaciones -->
 		<section class="section text-center pb-4">
 			<!--Section heading-->
