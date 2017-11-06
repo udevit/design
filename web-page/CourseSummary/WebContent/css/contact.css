@@ -1,18 +1,40 @@
-.jumbotron {
-	background: #358CCE;
-	color: #FFF;
-	border-radius: 0px;
+.blue {
+    background-color: #2196F3!important;
 }
 
-.jumbotron-sm { 
-	padding-top: 24px;
-	padding-bottom: 24px; 
+.blue.accent-1 {
+    background-color: #246fb4!important;
 }
 
-.jumbotron small {
-	color: #FFF;
+.form-header {
+    color: #fff;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 2px;
 }
 
-.h1 small {
-	font-size: 24px;
+.btn-floating {
+    z-index: 1;
+    overflow: hidden;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #a6c;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+}
+
+.btn-floating i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.btn-floating{
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
