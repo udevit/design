@@ -11,7 +11,7 @@ function InvalidMsgEmail(textbox) {
     if (textbox.value == '') {
         textbox.setCustomValidity('Por favor ingrese su correo electronico');
     }else if (textbox.validity.typeMismatch){
-        textbox.setCustomValidity('please enter a valid email address');
+        textbox.setCustomValidity('Por favor ingrese un correo electronico valido');
     }else {
        textbox.setCustomValidity('');
     }

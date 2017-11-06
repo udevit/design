@@ -63,7 +63,7 @@
 			                            </div>
 									</div>
 									<div class="form-group">
-			                            <label for="email">Correo</label>
+			                            <label for="email">Correo electr&oacute;nico</label>
 			                            <div class="input-group">
 			                            	<div class="input-group-addon">
 			                            		<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -96,39 +96,49 @@
         	</div>
         	
         	<br>
+        	<br>
+        	<br>
         	
 		    <div class="container">
         		<div class="row">
 	    			<!--Grid column-->
         			<div class="col-sm-12 col-md-12 col-lg-12">
-        				<!--Google map-->
-            			<div id="map" class="z-depth-1-half map-container" style="height: 400px"></div>
-            			
-            			<br>
-			            <!--Buttons-->
-			            <div class="row text-center">
-			                <div class="col-md-4">
-			                    <a class="btn-floating blue accent-1">
-			                    	<i class="fa fa-map-marker"></i>
-			                    </a>
-			                    <p>Nicaragua 16 colonia Buenos Aires, CP 55130</p>
-			                    <p>Ciudad de México</p>
-			                </div>
-			
-			                <div class="col-md-4">
-			                    <a class="btn-floating blue accent-1">
-			                    	<i class="fa fa-phone"></i>
-			                    </a>
-			                    <p>+521 11 2711 9309</p>
-			                    <p>Lunes - Domingo, 8:00 - 22:00</p>
-			                </div>
-			
-			                <div class="col-md-4">
-			                    <a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
-			                    <p>contacto@udevit.com.mx</p>
-			                    <p>ventas@udevit.com.mx</p>
-			                </div>
-			            </div>
+        				<div class="card">
+	                		<div class="card-body">
+			                    <!--Header-->
+			                    <div class="form-header blue accent-1">
+			                        <h3><i class="fa fa-map-marker"></i> ¿Dónde estamos ubicados?</h3>
+			                    </div>
+		        				<!--Google map-->
+		            			<div id="map" class="z-depth-1-half map-container" style="height: 400px"></div>
+		            			
+		            			<br>
+					            <!--Buttons-->
+					            <div class="row text-center">
+					                <div class="col-md-4">
+					                    <a class="btn-floating blue accent-1">
+					                    	<i class="fa fa-map-marker"></i>
+					                    </a>
+					                    <p>Nicaragua 16 colonia Buenos Aires, CP 55130</p>
+					                    <p>Ciudad de México</p>
+					                </div>
+					
+					                <div class="col-md-4">
+					                    <a class="btn-floating blue accent-1">
+					                    	<i class="fa fa-phone"></i>
+					                    </a>
+					                    <p>+521 11 2711 9309</p>
+					                    <p>Lunes - Domingo, 8:00 - 22:00</p>
+					                </div>
+					
+					                <div class="col-md-4">
+					                    <a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
+					                    <p>contacto@udevit.com.mx</p>
+					                    <p>ventas@udevit.com.mx</p>
+					                </div>
+					            </div>
+							</div>
+						</div>
         			</div>
         		</div>
             </div>
