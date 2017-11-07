@@ -1,7 +1,3 @@
-<%@page import="com.udev.course.model.TeacherVO"%>
-<%@page import="java.util.List"%>
-<%@page import="com.udev.course.model.CourseVO"%>
-<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -18,6 +14,7 @@
     	<link href="../css/welcome.css" rel="stylesheet">
     	<link href="../css/cards.css" rel="stylesheet">
     	<link href="../css/footer.css" rel="stylesheet">
+    	<link href="../css/hover-effect.css" rel="stylesheet">
     
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

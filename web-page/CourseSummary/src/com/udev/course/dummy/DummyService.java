@@ -33,13 +33,13 @@ public class DummyService extends HttpServlet {
 		StringBuffer jsonObject =  new StringBuffer();
 		if("recomendation".equals(modeType)){
 			jsonObject.append("[");
-			jsonObject.append("{\"id\": 1,\"flyer\": \"../images/flyer/Java-training-Courses.png\",\"name\": \"Java Basico\",\"trainer\": \"Olegario Castellanos G.\",\"mode\": \"Online\"}");
+			jsonObject.append("{\"id\": 1,\"flyer\": \"../images/flyer/Java-training-Courses.png\",\"name\": \"Java Basico\",\"trainer\": \"Olegario Castellanos G.\",\"mode\": \"Online\", \"price\": \"$40 USD\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 2,\"flyer\" : \"../images/flyer/nodejs-new-pantone-black.png\",\"name\" : \"NodeJS Basico\",\"trainer\": \"Shunco Vazquez.\",\"mode\": \"Presencial\"}");
+			jsonObject.append("{\"id\": 2,\"flyer\" : \"../images/flyer/nodejs-new-pantone-black.png\",\"name\" : \"NodeJS Basico\",\"trainer\": \"Shunco Vazquez.\",\"mode\": \"Presencial\", \"price\": \"$40 USD\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 3,\"flyer\" : \"../images/flyer/java-training-multisoft-systems.png\",\"name\" : \"Java Basico II\",\"trainer\": \"Joe c. Enriquez F.\",\"mode\": \"Online\"}");
+			jsonObject.append("{\"id\": 3,\"flyer\" : \"../images/flyer/java-training-multisoft-systems.png\",\"name\" : \"Java Basico II\",\"trainer\": \"Joe c. Enriquez F.\",\"mode\": \"Online\", \"price\": \"$40 USD\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 1,\"flyer\" : \"../images/flyer/3116-dzone_refcard_206.png\",\"name\" : \"Angular Basico\",\"trainer\": \"Juan Perez Juarez\",\"mode\": \"Presencial\"}");
+			jsonObject.append("{\"id\": 1,\"flyer\" : \"../images/flyer/3116-dzone_refcard_206.png\",\"name\" : \"Angular Basico\",\"trainer\": \"Juan Perez Juarez\",\"mode\": \"Presencial\", \"price\": \"$40 USD\"}");
 			jsonObject.append("]");
 		}else if("testimonials".equals(modeType)){
 			jsonObject.append("[");
@@ -51,21 +51,31 @@ public class DummyService extends HttpServlet {
 			jsonObject.append("]");
 		}else if("profesors".equals(modeType)){
 			jsonObject.append("[");
-			jsonObject.append("{\"id\": 1, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Olegario\", \"lastname\": \"Castellanos\", \"role\": \"Ing. Software\"}");
+			jsonObject.append("{\"id\": 1, \"photo\": \"../images/photo/389.jpg\", \"name\": \"Olegario\", \"lastname\": \"Castellanos\", \"role\": \"Ing. Software | Java developer\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 2, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Joe C.\", \"lastname\": \"Enriquez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append("{\"id\": 2, \"photo\": \"../images/photo/46.jpg\", \"name\": \"Joe C.\", \"lastname\": \"Enriquez\", \"role\": \"Ing. Software | .NET developer\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 3, \"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Jose E. \", \"lastname\": \"Vazquez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append("{\"id\": 3, \"photo\": \"../images/photo/467.jpg\", \"name\": \"Jose E. \", \"lastname\": \"Vazquez\", \"role\": \"Ing. Software | Phyton developer\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 4, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Marco F.\", \"lastname\": \"Diaz\", \"role\": \"Disenador web\"}");
+			jsonObject.append("{\"id\": 4, \"photo\": \"../images/photo/478.jpg\", \"name\": \"Paola.\", \"lastname\": \"Diaz\", \"role\": \"Disenador web\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 5, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Juan\", \"lastname\": \"Diaz\", \"role\": \"Ing. Software\"}");
+			jsonObject.append("{\"id\": 5, \"photo\": \"../images/photo/207.jpg\", \"name\": \"Juan\", \"lastname\": \"Diaz\", \"role\": \"Ing. Software | PHP developer\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 6, \"photo\": \"https://mobirise.com/blocks/assets/images/jimmy-bay.jpg\", \"name\": \"Pedro\", \"lastname\": \"Perez\", \"role\": \"Ing. Software\"}");
+			jsonObject.append("{\"id\": 6, \"photo\": \"../images/photo/161.jpg\", \"name\": \"Pedro\", \"lastname\": \"Perez\", \"role\": \"Ing. Software | Fullstack developer\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 7, \"photo\": \"https://mobirise.com/blocks/assets/images/pete-bellis.jpg\", \"name\": \"Jose\", \"lastname\": \"Orozco\", \"role\": \"SAP Consultant\"}");
+			jsonObject.append("{\"id\": 7, \"photo\": \"../images/photo/72.jpg\", \"name\": \"Rebeca\", \"lastname\": \"Orozco\", \"role\": \"SAP Consultant\"}");
 			jsonObject.append(",");
-			jsonObject.append("{\"id\": 8, \"photo\": \"https://mobirise.com/blocks/assets/images/matheus-ferrero.jpg\", \"name\": \"Guillermo\", \"lastname\": \"Ochoa\", \"role\": \"DBA\"}");
+			jsonObject.append("{\"id\": 8, \"photo\": \"../images/photo/441.jpg\", \"name\": \"Rosario\", \"lastname\": \"Ochoa\", \"role\": \"Oracle DBA Consultant\"}");
+			jsonObject.append("]");
+		}else if("profesorCourses".equals(modeType)){
+			jsonObject.append("[");
+			jsonObject.append("{\"id\": 1,\"flyer\": \"../images/flyer/Java-training-Courses.png\",\"name\": \"Java Basico\",\"mode\": \"Online\", \"price\": \"$40 USD\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 2,\"flyer\" : \"../images/flyer/nodejs-new-pantone-black.png\",\"name\" : \"NodeJS Basico\",\"mode\": \"Presencial\", \"price\": \"$40 USD\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 3,\"flyer\" : \"../images/flyer/java-training-multisoft-systems.png\",\"name\" : \"Java Basico II\",\"mode\": \"Online\", \"price\": \"$40 USD\"}");
+			jsonObject.append(",");
+			jsonObject.append("{\"id\": 1,\"flyer\" : \"../images/flyer/3116-dzone_refcard_206.png\",\"name\" : \"Angular Basico\",\"mode\": \"Presencial\", \"price\": \"$40 USD\"}");
 			jsonObject.append("]");
 		}
 		out.print(jsonObject.toString());

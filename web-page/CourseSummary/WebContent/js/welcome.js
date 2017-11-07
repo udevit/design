@@ -1,5 +1,5 @@
 /**
- * 
+ *  
  */
 function loadCourses(){
 	console.log("Loading courses");
@@ -15,15 +15,17 @@ function loadCourses(){
 			var cardElement = 
 				'<div class="col-sm-12 col-md-6 col-lg-4 mt-4">' +
 					'<div class="card card-inverse card-info">' +
-						'<img class="card-img-top" src="' + data.flyer + '" class="img-fluid">' +
+						'<img class="card-img-top img-fluid" src="' + data.flyer + '">' +
 						'<div class="card-block">' +
 							'<h4 class="card-title">' + data.name + '</h4>' +
 							'<div class="card-text">' +
-								'<i class="fa fa-user-circle" aria-hidden="true"></i> Profesor: ' + data.trainer +
+								'<a href="../pages/profesor_detail.jsp" class="profesor-link">' +
+								'<i class="fa fa-user-circle" aria-hidden="true"></i></a>    ' + 
+								'Profesor: ' + data.trainer +
 								'<br>' +
 								'<span class="badge badge-danger">' +
 								'<i class="fa fa-shopping-cart" aria-hidden="true"></i> ' +
-								'$40 USD' +
+								data.price +
 								'</span>' +
 							'</div>' +
 						'</div>' +
@@ -54,7 +56,7 @@ function loadTestimonials(){
 				var cardElement = 
 					'<div class="col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">' +
 						'<div class="card card-inverse card-info">' +
-							'<img class="card-img-top" src="' + data.photo + '" class="img-fluid">' +
+							'<img class="card-img-top img-fluid" src="' + data.photo + '">' +
 							'<div class="card-block">' +
 								'<h4 class="card-title">' + data.name + '<br>' + data.course + '</h4>' +
 								'<i class="fa fa-star"></i>' +

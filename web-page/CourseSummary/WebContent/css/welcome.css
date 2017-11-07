@@ -50,3 +50,13 @@ body {
     .carousel-caption p{font-size: 32px;} 
     .carousel-caption{padding-bottom:160px;}
 }
+
+a.profesor-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.justify-text{
+	text-align: justify; 
+}

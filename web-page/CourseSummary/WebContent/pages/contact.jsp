@@ -1,7 +1,3 @@
-<%@page import="com.udev.course.model.TeacherVO"%>
-<%@page import="java.util.List"%>
-<%@page import="com.udev.course.model.CourseVO"%>
-<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -73,6 +69,15 @@
 										</div>
 			                        </div>
 			                        <div class="form-group">
+			                            <label for="phone">Tel&eacute;fono</label>
+			                            <div class="input-group">
+			                            	<div class="input-group-addon">
+			                            		<i class="fa fa-phone" aria-hidden="true"></i>
+			                            	</div>
+			                                <input type="phone" class="form-control" id="phone" placeholder="Ingrese su tel&eacute;fono"/>
+										</div>
+			                        </div>
+			                        <div class="form-group">
 			                            <label for="subject">Asunto</label>
 			                            <select id="subject" name="subject" class="form-control" required="required">
 			                                <option value="na" selected="">Elige uno:</option>
@@ -132,7 +137,9 @@
 					                </div>
 					
 					                <div class="col-md-4">
-					                    <a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
+					                    <a class="btn-floating blue accent-1">
+					                    	<i class="fa fa-envelope"></i>
+					                    </a>
 					                    <p>contacto@udevit.com.mx</p>
 					                    <p>ventas@udevit.com.mx</p>
 					                </div>
