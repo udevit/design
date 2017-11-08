@@ -10,7 +10,7 @@ function loadProfesors(){
 			  for(var i in response){
 				var data = response[i];
 				var cardElement = 
-					'<div class="col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">' +
+					'<div class="col-sm-12 col-md-6 col-lg-4 mt-4">' +
 						'<div class="card card-inverse card-info">' +
 							'<div class="hovereffect">' +
 								'<img class="card-img-top img-fluid" src="' + data.photo + '">' +
