@@ -9,6 +9,7 @@
 		<title>UDev IT | Capacitaci&oacute;n Empresarial</title>
 		
 		<script src="../js/contact.js"></script>
+		<script src="../js/validation.js"></script>
 		
 		<!-- Custom styles for this template -->
     	<link href="../css/welcome.css" rel="stylesheet">
@@ -54,7 +55,7 @@
 				                            <div class="input-group-addon">
 				                            	<i class="fa fa-user" aria-hidden="true"></i>
 				                            </div>
-				                            <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" required="required" 
+				                            <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" required="required" autofocus
 				                            	oninvalid="InvalidMsg(this, 'Por favor ingrese su nombre');" oninput="InvalidMsg(this, '');" />
 			                            </div>
 									</div>
