@@ -27,27 +27,22 @@
 			<!--Section heading-->
 			<h1 class="section-heading h1 pt-4">Olegario Castellanos Guzm&aacute;n</h1>
 			<i class="fa fa-quote-left"></i>     Ingeniero de Software  | Java developer     <i class="fa fa-quote-right"></i>
+			<br>
+			<br>
+			<br>
 	    	<div class="container">
-	    		<div class="row">
-		  			<div class="col-sm-12 col-md-12 col-lg-6 mt-4">
-		  				<div class="card">
-							<img class="img-fluid" width="50%" height="400" src="../images/photo/207.jpg">
-						</div>
-		  			</div>
-		  			<div class="col-sm-12 col-md-12 col-lg-6 mt-4 justify-text">
-		  				Daniel Guillermo Romero, ingeniero de sistemas, analista y desarrollador de sistemas de información, actualmente desarrolla aplicaciones web siendo parte tanto del Front-End como del Back-End.
+				<div class="row">
+					<div class="col-12 col-md-16">
+				    	<img class="img-fluid" width="50%" height="400" src="../images/photo/207.jpg">
+				    </div>
+				    <div class="col-12 col-md-6 text-left">
+				    	Daniel Guillermo Romero, ingeniero de sistemas, analista y desarrollador de sistemas de información, actualmente desarrolla aplicaciones web siendo parte tanto del Front-End como del Back-End.
 						Freelancer de corazón, especializado en PHP, lenguaje con el que ha trabajado desde el año 2009, ha realizado trabajos en el planeta tierra para empresas como Construimportados, Distrigases, Grupo GIA, Damappa, CDA El Arauco, Fundación Los Araucos, Infantería de Marina de Colombia, entre otros.
 						Ha sido educador en la Fundación Educativa Obrera, FUNEDO, institución para el trabajo y desarrollo humano al servicio de la comunidad, promovida por los trabajadores afiliados a la Unión Sindical Obrera de la Industria del Petróleo.
 						Le gusta compartir conocimiento, hoy en día hace parte de las transmisiones en vivo emitidas  en YouTube, donde nos muestra paso a paso cosas interesantes sobre algunas de sus pasiones, entre ellas el lenguaje de programación Go (golang).
-						<br>
-						<br>
-						<br>
-						<div class="row text-right">
-							<i class="fa fa-twitter"></i>
-			            </div>
-		  			</div>
-		  		</div>
-	    	</div>
+				    </div>
+				</div>
+			</div>
     	</section>
     	
     	<!--Section: Cursos que imparte -->

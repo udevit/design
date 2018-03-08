@@ -47,7 +47,7 @@
 							class="img-fluid">
 						<div class="carousel-caption d-none d-md-block">
 							<h3>Somos la mejor opci&oacute;n para t&iacute;</h3>
-						  	<p>Ofrecemos cursos presenciales y online, <br>con clases pre-grabadas y asesor&iacute;as en vivo.</p>
+						  	<p>Ofrecemos cursos presenciales y online, <br>con clases pregrabadas y asesor&iacute;as en vivo.</p>
 						  	<button class="btn btn-danger">Pide tu prueba gratis</button>
 						</div>
 					</div>
